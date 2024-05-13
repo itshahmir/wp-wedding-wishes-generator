@@ -211,7 +211,7 @@ add_action('wp_ajax_nopriv_generate_wedding_wish', 'generate_wedding_wish');
 
 function generate_wedding_wish()
 {
-    $openAISecretKey = "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";
+    $openAISecretKey = "**************************";
     // Get user IP address
     $user_ip = getUserIP();
 
